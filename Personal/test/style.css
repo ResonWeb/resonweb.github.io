@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* *全局样式* */
+* { margin:0px; padding:0px; color:#6f4008;}
+body { font-family:"华文行楷", "楷体", "黑体", "宋体"; font-size:16px; background:url(img/body.png) center top no-repeat; background-color:#e0e0e0; }
+.wrap { width:1024px; height:auto; margin:0 auto;}
+a { text-decoration:none;}
+ul { list-style:none;}
+
+/* *头部样式* */
+.wrap .head { width:100%; height:50px; margin-top:250px;}
+.wrap .head img { width:100px; height:100px; margin-left:840px; float:left; margin-top:-250px;}
+.wrap .head p { line-height:50px; letter-spacing:0.5em; font-size:40px; margin-left:490px; padding-top:10px;}
+.wrap .head p span { font-size:14px; font-family:"Times New Roman"; letter-spacing:0em;}
+.wrap .head-img { width:100%; height:300px; background-image:url(img/header-bk.jpg); border-top:4px solid #000;}
+
+/* *导航栏样式* */
+.wrap .nav { width:100%; height:40px; background-color:#6f4008; margin-top:4px;}
+.wrap .nav ul { list-style:none; width:100%; height:100%; margin:0px; padding:0;}
+.wrap .nav ul li { float:left; text-align:center; line-height:40px; width:5em; margin-right:2px;}
+.wrap .nav ul li a { display:block; color:#F00;}
+.wrap .nav ul li#current { background-color:#FFC; color:#000;}
+.wrap .nav ul li a:hover { background-color:#FFC; color:#000;}
+
+/* *正文样式* */
+.wrap .contant { width:100%; height:400px; background-color:#FFF;}
+.wrap .contant #left-con { width:200px; float:left; padding:20px 0 0 30px;}
+.wrap .contant #left-con ul {}
+.wrap .contant #left-con ul li { margin-top:10px; height:2em; line-height:2em; text-align:left;}
+.wrap .contant #left-con ul li a { font-family:"Times New Roman"; font-size:24px;}
+.wrap .contant #left-con ul li:hover { display:block; color:#000;}
+.wrap .contant #left-con ul li ul li { margin:0 10px; padding-left:20px; background:url(img/paw-bullet.jpg) no-repeat left;}
+.wrap .contant #left-con ul li ul li a { font-size:18px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+
+.wrap .contant #right-con { width:750px; float:right; margin-top:20px; margin-right:20px;}
+.wrap .contant #right-con h1 { text-align:center;}
+.wrap .contant #right-con h1 span { font-size:18px;}
+.wrap .contant #right-con p { font-family: "黑体", "宋体", "仿宋"; font-size:18px; text-indent: 2em; line-height:1.5em; margin-top:10px;}
+
+/* *版权栏样式* */
+.wrap .clear { clear:both;}
+.wrap .copyright { width:100%; height:60px; border-top:8px solid #6f4008; text-align:center; margin-top:6px;}
+.wrap .copyright p { 
+	font-family:"Times New Roman";
+	line-height:30px;
+	font-size:1em;
+}

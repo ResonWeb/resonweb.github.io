@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+/*这个是站点首页样式表*/
+body {
+	margin: 0px;
+
+	background-image: url(../../Pic/images/2.jpg);
+	background-repeat: repeat;
+	}
+	/*以下是主体内容样式*/
+	
+.all {
+	width: 900px;
+	height: 600px;
+	margin-top: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000000;
+	font-family: "黑体";
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	background-color:#CCFFFF;
+	}
+a {
+	text-decoration: none;
+	color: #000000;
+	font-family: "楷体";
+}
+a:link {
+	color: #636;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+	font-family: "微软简行楷";
+}
+
+	/*以下是头部样式*/
+.all .head {
+	background-color:#CFC
+	width: 900px;
+	height: 183px;
+}
+#logo {
+	background-image:url(../images/logo2.jpg);
+	margin:1px;
+	width: 72px;
+	height: 70px;
+	float:left;
+}
+
+.all .head #logo1 {
+	background-image:url(../images/titleback.jpg);
+	float: left;
+	height: 70px;
+	width: 826px;
+	margin-top: 1px;
+	font-family: "楷体";
+	font-size: 40px;
+	line-height:70px;
+	}
+
+
+.all .head #navigation {
+	width: 600px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.all .head #navigation ul li {
+	list-style-type: none;
+	width: 23%;
+	text-align: center;
+	letter-spacing: 0.5em;
+	line-height: 30px;
+	background-color:#FFC;
+	margin-left:1px;
+	margin-right:1px;
+	float:left;
+	border:thin #000;
+}
+/*以下是中间部分样式*/
+.all .imgbk {
+	width:900px;
+	height:275px;
+	background-image: url(../Pic/images/imgbk_03.gif);
+}
+/*以下是底部样式*/
+.all .copyright {
+	width:900px;
+	height:55px;
+	background-image: url(../Pic/images/copyrbk.jpg);
+	background-repeat: repeat-x;
+}
+

@@ -1,0 +1,120 @@
+﻿@charset "utf-8";
+/*这个是站点首页样式表*/
+body {
+	margin: 0px;
+
+	background-image: url(../Pic/images/2.jpg);
+	background-repeat: repeat;
+	}
+	/*以下是主体内容样式*/
+	
+.all {
+	width: 900px;
+	height: 600px;
+	margin-top: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000000;
+	font-family: "黑体";
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	background-color: #FFFFFF;
+	}
+a {
+	text-decoration: none;
+	color: #000000;
+	font-family: "楷体";
+	display:block;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+	display:block;
+	}
+
+
+/*以下是头部样式*/
+.all #head {
+	background-image: url(../Pic/images/bg-top.png);
+	width: 900px;
+	height: 183px;
+}
+#logo {
+	background-image: url(../Pic/images/logo_05.png);
+	margin-top:5px;
+	margin-left:30px;
+	width: 160px;
+	height: 160px;
+	float:left;
+}
+
+.all #head #logo1 {
+	margin-top:35px;
+	float:left;
+	margin-left:0px;
+	}
+.all #head #logo1 #logo12 {
+	margin-top: 5px;
+	margin-left:-40px;
+}
+.all #head #logo1 #logo11 {
+	margin-left: 30px;
+}
+.all #head #info {
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+	width: 150px;
+	height: 150px;
+}
+.all #head #info ul li {
+	line-height: 35px;
+	font-family:sans-serif;
+	font-size: 16px;
+	text-align:left;
+}
+
+/*以下是中间部分样式*/
+.all .contant {
+	width: 600px;
+	height: 51px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../Pic/images/px_12.jpg);
+	background-repeat: repeat-x;
+	margin-top: 2px;
+	background-position: 0% 48%;
+	margin-bottom:20px;
+	position:relative;
+}
+.all .contant ul { padding:0px}
+
+.all .contant ul li {
+	padding-top:5px;
+	list-style-type: none;
+	width: 20%;
+	text-align: center;
+	letter-spacing: 0.5em;
+	float: left;
+	height: 60px;
+	line-height: 46px;
+	position:relative;
+}
+.all .contant ul li a:hover { background-color:#C09;}
+.all .contant #nav-img { position:absolute; top:-18px; left:258px; width:84px; height:84px;}
+.all .imgbk { width:900px; height:275px; background-image: url(../Pic/images/imgbk_03.gif);}
+
+/*以下是底部样式*/
+.all .copyright {
+	width:900px;
+	height:55px;
+	background-image: url(../Pic/images/copyrbk.jpg);
+	background-repeat: repeat-x;
+}
+
+.all .contant ul li ul { list-style-type: none; position:absolute; right:0px; top:60px; letter-spacing:0em; display:none; margin-top:-9px;}
+.all .contant ul li ul li { clear:both; margin-top:2px; width:120px; height:30px; line-height:30px; background-color:#C0F; padding-top:0px;}
+.all .contant ul li ul li a:hover { text-decoration: none;}
+.all .contant ul li:hover ul { display:block;}

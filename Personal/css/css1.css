@@ -1,0 +1,12 @@
+@charset "utf-8";
+* {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+#div1 #div4 {
+	float: left;
+	height: 200px;
+	width: 100px;
+	border: 1px solid #0F0;
+}

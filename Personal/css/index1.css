@@ -1,0 +1,92 @@
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-family::"楷体","宋体";
+	font-size:16px;
+	}
+body {
+	background-color:#C9F;
+	margin-top:2px;
+	}
+.wrap {
+	width:980px;
+	height:600px;
+	margin:auto;
+	background-color: #FFF;
+	}
+	/*以下是head样式*/
+
+
+.wrap .head {
+	width: 952px;
+	margin:auto;
+	height: 245px;
+	background:url(../images/images/header.png) #CCC center no-repeat;
+	margin-bottom:3px;
+}
+.wrap .head #logo {
+	width: 160px;
+	height: 160px;
+	float:left;
+	display:none;
+	border:dotted red 1px;
+	
+}
+.wrap .head #banner {
+	float:none;
+	width:800px;
+	line-height: 100px;
+	height:100px;}
+	
+
+.wrap .head #navigation {
+	width:60%;
+	height:40px;
+	background:url(../images/images/bk-head_03.png) no-repeat bottom center;
+	clear:both;
+	margin:auto;
+	margin-top: 110px;
+	padding-left:10%;
+}
+
+.wrap .head #navigation li {
+	float: left;
+	list-style-type: none;
+	line-height:40px;
+	width:20%;
+}
+
+/*以下是内容*/
+
+.wrap .content {
+	width: 100%;
+	background-image: url(../images/images/bg_02.gif);
+	background-repeat: repeat-y;
+	padding-top:20px;
+}
+.wrap .content #side-left {
+	width: 180px;
+	float: left;
+	margin-left:-780px;
+}
+.wrap .content #content-mid {
+	float: left;
+	width:580px;
+	margin-left:200px;
+}
+.wrap .content #side-right {
+	width: 180px;
+	float: right;
+	height:500px;
+}
+
+/*以下是版权样式*/
+.wrap .copyright {
+	height:53px;
+	width:100%;
+	line-height:100%;
+	background-repeat:no-repeat;
+	background-image: url(../images/images/copyright_02.gif);
+}
